@@ -1,4 +1,4 @@
-#Spring Security SAML
+# Spring Security SAML  
 keytool -genkeypair -keyalg "RSA" -keysize 2048 -alias baeldungspringsaml -storepass baeldungsamlokta -keystore keystore.jks
 
 keytool -v -export -file mytrustCA.cer -keystore keystore.jks -alias baeldungspringsaml -storepass baeldungsamlokta
